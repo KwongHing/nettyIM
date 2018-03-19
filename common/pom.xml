@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>top.zgx8.netty.im.common</groupId>
+    <artifactId>nettyIM</artifactId>
+    <packaging>war</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mall Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <!-- spring版本号 -->
+        <!--<spring.version>4.0.2.RELEASE</spring.version>-->
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.22.Final</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>mall</finalName>
+    </build>
+</project>
